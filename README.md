@@ -75,10 +75,6 @@ is a website for all fans of mathematics. It is a Single Page App (SPA) that all
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> You can see the live demo of this project [here](/)
-
 <!-- - No live demo available yet -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
