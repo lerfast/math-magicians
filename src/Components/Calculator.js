@@ -6,14 +6,14 @@ function Calculator() {
   return (
     <div className="calculator">
       <div className="screen">
-        {}
+        {0}
       </div>
       <div className="buttons">
         <div className="row">
           <Button label="AC" />
           <Button label="+/-" />
           <Button label="%" />
-          <Button label="/" special />
+          <Button label="÷" special />
         </div>
         <div className="row">
           <Button label="7" />
