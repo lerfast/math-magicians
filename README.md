@@ -1,7 +1,9 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./luis-logo.png" alt="logo" width="20%"  height="auto" />
-  <br/>
+  <img src="./luis-logo.png" alt="logo" width="30%"  height="auto" />
+</div>
+
+<br/>
 
 
 <h1>Math magicians - Microverse</h1>

@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.button.special {
+  background-color: orange;
+  color: white;
+}
+
+.button.special:hover {
+  background-color: darkorange;
+}
+
+.button.double-width {
+  width: calc(100% * 2 + 26%);
+}
