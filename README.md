@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./luis-logo.png" alt="logo" width="20%"  height="auto" />
+  <img src="./luis-logo.png" alt="logo" width="30%"  height="auto" />
   <br/>
 
 
