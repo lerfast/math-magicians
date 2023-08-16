@@ -10,7 +10,6 @@ describe('QuoteDisplay Component', () => {
   });
 
   it('displays an error message if fetching data fails', async () => {
-    // Mock the fetch function to simulate an error
     jest.spyOn(global, 'fetch').mockRejectedValueOnce(new Error('Network Error'));
 
     const { getByText } = render(<QuoteDisplay />);
@@ -21,7 +20,6 @@ describe('QuoteDisplay Component', () => {
   });
 
   it('displays the fetched quote', async () => {
-    // Mock the fetch function to return a specific quote
     jest.spyOn(global, 'fetch').mockResolvedValueOnce({
       json: jest.fn().mockResolvedValueOnce([{ quote: 'This is a test quote' }]),
     });
@@ -34,7 +32,6 @@ describe('QuoteDisplay Component', () => {
   });
 
   it('displays an error message if no quotes are found', async () => {
-    // Mock the fetch function to return an empty array
     jest.spyOn(global, 'fetch').mockResolvedValueOnce({
       json: jest.fn().mockResolvedValueOnce([]),
     });

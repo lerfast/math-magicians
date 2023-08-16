@@ -13,14 +13,13 @@ describe('Calculator Component', () => {
     const { getByText, getByTestId } = render(<Calculator />);
     const button7 = getByText('7');
     const button8 = getByText('8');
-    const screen = getByTestId('screen'); // Use getByTestId to select the screen element
-  
+    const screen = getByTestId('screen');
+
     fireEvent.click(button7);
     fireEvent.click(button8);
-  
-    expect(screen).toHaveTextContent('78'); // Adjust the expected value here
+
+    expect(screen).toHaveTextContent('78');
   });
-  
 
   it('performs calculations correctly', () => {
     const { getByText, getByTestId } = render(<Calculator />);
