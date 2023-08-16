@@ -15,7 +15,7 @@ function Calculator() {
 
   return (
     <div className="calculator">
-      <div className="screen">
+      <div className="screen" data-testid="screen">
         {result}
       </div>
       <div className="buttons">
